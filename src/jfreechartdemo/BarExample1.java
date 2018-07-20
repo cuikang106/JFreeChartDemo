@@ -37,7 +37,7 @@ public class BarExample1 extends ApplicationFrame{
         chart.setBackgroundPaint(Color.WHITE);//改变图标外围的背景色
         CategoryPlot plot = (CategoryPlot) chart.getPlot();//获取图标的区域的引用
         plot.setBackgroundPaint(Color.LIGHT_GRAY);//改变图表的背景色
-        plot.setRangeGridlinePaint(Color.YELLOW);//改变水平轴网格线的颜色
+        plot.setRangeGridlinePaint(Color.white);//改变水平轴网格线的颜色
         BarRenderer renderer = (BarRenderer)plot.getRenderer();//获取直方图的绘图实例
         renderer.setSeriesPaint(0,Color.GRAY);//改变系列的颜色
         renderer.setSeriesPaint(1, Color.ORANGE);
